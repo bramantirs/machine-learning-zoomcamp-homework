@@ -5,7 +5,7 @@ Business problem: Fintech company want to predict the risk of loan default befor
 ML problem: Binary classification → default = 1, non-default = 0
 
 Success metric:
-    - ROC-AUC (utama, karena data imbalance), 
+    - ROC-AUC (as the main basis, if the data is imbalanced), 
     - Recall (minimize false negative), 
     - Precision (avoid incorrect rejection).
 
