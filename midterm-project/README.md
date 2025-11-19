@@ -21,25 +21,29 @@ This project explores the data, builds several models, and prepares the whole wo
 
 Key features included in the dataset:
 
-• Income
+- Identifier:
 
-• Credit score
+Customer ID (unique identifier for each application)
 
-• Employment length
+- Demographics:
 
-• Loan amount
+Age, Occupation Status, Years Employed
 
-• Debt to income ratio
+- Financial Profile:
 
-• Home ownership
+Annual Income, Credit Score, Credit History Length -Savings/Assets, Current Debt
 
-• Previous defaults
+- Credit Behaviour:
 
-• Bank balance
+Defaults on File, Delinquencies, Derogatory Marks
 
-• Loan purpose
+- Loan Request:
 
-• Region
+Product Type, Loan Intent, Loan Amount, Interest Rate
+
+- Calculated Ratios:
+
+Debt-to-Income, Loan-to-Income, Payment-to-Income
 
 • Loan status (target)
 
@@ -212,3 +216,4 @@ Step 4: Run container
 ```
 docker run -p 9696:9696 loan-approval-app
 ```
+
